@@ -22,7 +22,7 @@ function  AddGS(){
         },
         redirect: 'follow', // manual, *follow, error
         referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-        body: JSON.stringify({name:"John"}) // body data type must match "Content-Type" header
+        body: JSON.stringify({"first":"Monica","last":"Zapata","phone":"630-303-4682"}) // body data type must match "Content-Type" header
   });
         
         
